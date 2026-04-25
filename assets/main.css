@@ -1,0 +1,10 @@
+.titulo{
+    text-align: center;
+}
+
+.ejercicios{
+    background-color: lavender;
+    border: 0.2rem solid black;
+    margin: 3.125rem;
+    padding: 3.125rem;
+}
