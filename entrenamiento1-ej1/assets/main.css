@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+}
+.cambios-solicitados {
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color:lavenderblush;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+
+.datos-foto {
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+}
+
+.datos-foto img {
+  max-width: 9.375rem;
+  height: auto;
+  border-radius: 0.625rem; 
+}
+
+.datos-foto p{
+    margin: 0.5rem;
+}
+
+h3{
+margin: 0;
+margin-top: 4rem;
+}
+
+ul{
+    margin: 0;
+}
+/* 16px = 1rem */
+
+.wrapper{
+  display: grid;
+  grid-gap: 0.625rem;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 37.5rem;
+}
+
+.box {
+  padding: 0;
+  border-radius: 0.313rem;
+  overflow: hidden;
+}
+
+.a{
+  grid-column: 1/3;
+  grid-row: 1;
+}
+
+.b{
+  grid-column: 3;
+  grid-row: 1/3;
+}
+
+.c{
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.d{
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.box img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
